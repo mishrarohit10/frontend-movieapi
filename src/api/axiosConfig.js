@@ -5,7 +5,7 @@ export default axios.create({
 
     // headers: {"ngrok-skip-browser-warning": "true"}
 
-    baseURL:'https://6404-182-64-59-70.ngrok-free.app',
+    baseURL:'https://6078-122-173-178-193.ngrok-free.app',
     headers: {"ngrok-skip-browser-warning":"true",
-    "Access-Control-Allow-Origin": "*"}
+    "Access-Control-Allow-Origin": "http://localhost:3000"}
 });
